@@ -1,0 +1,26 @@
+{
+  "name": "navbar flexbox",
+  "homepage": "https://github.com/pfskiev/navbar-flexbox",
+  "authors": [
+    "Constantine Podlesny"
+  ],
+  "description": "create flexible navbar with native css flexbox properties",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "flexbox",
+    "navbar",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

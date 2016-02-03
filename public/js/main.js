@@ -4,4 +4,12 @@ $(document).ready(function(){
             $(this).next().toggleClass('on');
         });
     });
+
+    $('section.cont').click(function(){
+        $('.on').each(function(){
+            $(this).removeClass('on')
+        })
+    })
+
+
 });

@@ -36,10 +36,16 @@ nav {
   .dropdown {
     display: none;
     position: absolute;
-    width: 100%;
-    margin:auto;
+    width: 96%;
+    margin-right:2%;
+    margin-left:2%;
     background-color: #f5f5f5;
-    border-bottom: 15px solid #48d1cc
+    border-bottom: 15px solid #48d1cc;
+    box-shadow: 0 20px 30px gray;
+  }
+  .dropdown.about{
+    width: inherit;
+    border-bottom: none;
   }
   .dropdown.wrap{
     left: 0;
@@ -56,6 +62,7 @@ nav {
     .dropdown {
       position: relative;
       border-bottom: none;
+      box-shadow: none;
     }
     .sm-dropdown {
       display: none;
