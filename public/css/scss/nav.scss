@@ -17,7 +17,7 @@ nav {
     text-decoration:none;
     font-size:20px;
     color:#333333;
-    transition: color 200ms ease;
+    transition:200ms;
   }
   a:hover {
     color: #009999;
@@ -51,7 +51,19 @@ nav {
     left: 0;
   }
   .dropdown.on{
+    height: auto;
     display: flex;
+  }
+  input {
+    padding: 0 5px;
+    width: 90%;
+    height: 35px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    font-family: 'HelveticaNeueCyr-Light', sans-serif;
+    font-size: 15px;
+    color: #333333;
   }
 }
 .sm-show {

@@ -1,12 +1,10 @@
 @import 'scss/fonts';
 @import 'scss/layouts';
 @import 'scss/nav';
-
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family:'HelveticaNeueCyr-Light', sans-serif;
   font-size:17px;
@@ -16,4 +14,7 @@ body {
 section {
   padding: 10px;
   height: 400px;
+}
+.title {
+  color: #009999;
 }

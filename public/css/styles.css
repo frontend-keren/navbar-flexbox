@@ -70,7 +70,7 @@ nav {
     text-decoration: none;
     font-size: 20px;
     color: #333333;
-    transition: color 200ms ease; }
+    transition: 200ms; }
   nav a:hover {
     color: #009999; }
   nav span.menu {
@@ -97,7 +97,18 @@ nav {
   nav .dropdown.wrap {
     left: 0; }
   nav .dropdown.on {
+    height: auto;
     display: flex; }
+  nav input {
+    padding: 0 5px;
+    width: 90%;
+    height: 35px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    font-family: 'HelveticaNeueCyr-Light', sans-serif;
+    font-size: 15px;
+    color: #333333; }
 
 .sm-show {
   display: none; }
@@ -126,5 +137,8 @@ body {
 section {
   padding: 10px;
   height: 400px; }
+
+.title {
+  color: #009999; }
 
 /*# sourceMappingURL=styles.css.map */
