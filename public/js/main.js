@@ -12,6 +12,10 @@ $(document).ready(function(){
     $('a.dropdown-toggle').each(function(){
         $(this).click(function(){
             $(this).next().toggleClass('on');
+            //if($('ul ul.on').length > 1){
+            //    $('ul ul.on').removeClass('on');
+            //    $(this).next().addClass('on')
+            //}
         });
     });
 
@@ -19,7 +23,12 @@ $(document).ready(function(){
         $('.on').each(function(){
             $(this).removeClass('on')
         })
-    })
+    });
 
+    $(document).keyup(function(e) {
+        if (e.keyCode === 27) {
+            $('.on').removeClass('on');
+        }
+    });
 
 });
